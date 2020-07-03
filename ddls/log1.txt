@@ -1,0 +1,76 @@
+2020-07-03 16:05:48,439-STUDENT_REFERENCE created!
+2020-07-03 18:18:06,843-STUDENT_REFERENCE created!
+2020-07-03 18:19:29,659-STUDENT_REFERENCE created!
+2020-07-03 18:19:30,860-Fact : Payment created!
+2020-07-03 18:31:48,249-STUDENT_REFERENCE created!
+2020-07-03 18:31:50,398-Fact : Payment created!
+2020-07-03 18:32:27,756-STUDENT_REFERENCE created!
+2020-07-03 18:32:30,103-Fact : Payment created!
+2020-07-03 18:32:31,765-Fact : Payment created!
+2020-07-03 18:32:58,775-STUDENT_REFERENCE created!
+2020-07-03 18:33:00,150-Fact : Payment created!
+2020-07-03 18:33:00,400-Fact : Payment created!
+2020-07-03 18:33:55,311-STUDENT_REFERENCE created!
+2020-07-03 18:33:56,672-Fact : Payment created!
+2020-07-03 18:33:58,203-Fact : Academics created!
+2020-07-03 18:33:58,375-Fact : Payment created!
+2020-07-03 18:49:27,218-STUDENT_REFERENCE created!
+2020-07-03 18:49:27,312-Fact : Payment created!
+2020-07-03 18:49:27,468-Fact : Academics created!
+2020-07-03 18:49:27,546-Fact : Student created!
+2020-07-03 18:49:30,842-Fact : Placement created!
+2020-07-03 20:05:02,181-STUDENT_REFERENCE created!
+2020-07-03 20:05:03,961-Fact : Payment created!
+2020-07-03 20:05:05,805-Fact : Academics created!
+2020-07-03 20:05:07,929-Fact : Student created!
+2020-07-03 20:05:10,600-Fact : Placement created!
+2020-07-03 20:07:37,337-STUDENT_REFERENCE created!
+2020-07-03 20:07:40,892-Fact : Payment created!
+2020-07-03 20:07:42,047-Fact : Academics created!
+2020-07-03 20:07:43,250-Fact : Student created!
+2020-07-03 20:07:44,078-FACT : Attendence created!
+2020-07-03 20:07:45,203-Fact : Placement created!
+2020-07-03 21:27:36,312-STUDENT_REFERENCE created!
+2020-07-03 21:27:37,725-Fact : Payment created!
+2020-07-03 21:27:39,621-Fact : Academics created!
+2020-07-03 21:27:44,048-Fact : Student created!
+2020-07-03 21:27:46,847-FACT : Attendence created!
+2020-07-03 21:27:46,926-Fact : Placement created!
+2020-07-03 21:28:21,537-STUDENT_REFERENCE created!
+2020-07-03 21:28:22,392-Fact : Payment created!
+2020-07-03 21:28:23,853-Fact : Academics created!
+2020-07-03 21:28:25,138-Fact : Student created!
+2020-07-03 21:28:26,435-FACT : Attendence created!
+2020-07-03 21:28:26,487-Fact : Placement created!
+2020-07-03 21:28:29,694-DIMENSION : Payment_Details created!
+2020-07-03 21:28:31,145-DIMENSION : Details created!
+2020-07-03 21:52:50,911-STUDENT_REFERENCE created!
+2020-07-03 21:52:50,989-Fact : Payment created!
+2020-07-03 21:52:51,064-Fact : Academics created!
+2020-07-03 21:52:51,142-Fact : Student created!
+2020-07-03 21:52:51,189-FACT : Attendence created!
+2020-07-03 21:52:51,267-Fact : Placement created!
+2020-07-03 21:52:51,376-DIMENSION : Payment_Details created!
+2020-07-03 21:52:51,423-DIMENSION : Details created!
+2020-07-03 21:52:52,722-DIMENSION : Exam_Details created!
+2020-07-03 21:52:53,356-DIMENSION : Grade_Details created!
+2020-07-03 21:52:54,029-DIMENSION : Course_Details created!
+2020-07-03 21:52:54,703-DIMENSION : Dep_Details created!
+2020-07-03 21:52:55,235-DIMENSION : Staff_Details created!
+2020-07-03 21:52:56,042-DIMENSION : Calender_Details created!
+2020-07-03 21:52:57,183-DIMENSION : Placement_Details created!
+2020-07-03 21:55:36,690-STUDENT_REFERENCE created!
+2020-07-03 21:55:38,118-Fact : Payment created!
+2020-07-03 21:55:39,447-Fact : Academics created!
+2020-07-03 21:55:42,713-Fact : Student created!
+2020-07-03 21:55:44,880-FACT : Attendence created!
+2020-07-03 21:55:46,831-Fact : Placement created!
+2020-07-03 21:55:48,612-DIMENSION : Payment_Details created!
+2020-07-03 21:55:50,012-DIMENSION : Details created!
+2020-07-03 21:55:51,501-DIMENSION : Exam_Details created!
+2020-07-03 21:55:52,797-DIMENSION : Grade_Details created!
+2020-07-03 21:55:56,511-DIMENSION : Course_Details created!
+2020-07-03 21:56:00,625-DIMENSION : Dep_Details created!
+2020-07-03 21:56:02,261-DIMENSION : Staff_Details created!
+2020-07-03 21:56:03,308-DIMENSION : Calender_Details created!
+2020-07-03 21:56:04,919-DIMENSION : Placement_Details created!
