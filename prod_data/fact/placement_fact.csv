@@ -1,0 +1,16 @@
+2015160001,cse10,NULL,NULL,curdate(),9999-12-31 
+2015160002,cse10,cm01,no,curdate(),9999-12-31 
+2015160003,ece10,cm01,yes,curdate(),9999-12-31 
+2015160004,ece10,cm01,yes,curdate(),9999-12-31 
+2015160005,cse10,cm02,yes,curdate(),9999-12-31 
+2015160006,cse10,cm02,no,curdate(),9999-12-31 
+2015160007,ece10,cm02,no,curdate(),9999-12-31 
+2015160008,cse10,cm02,yes,curdate(),9999-12-31 
+2015160009,ece10,cm01,yes,curdate(),9999-12-31 
+2015170001,ece10,cm01,no,curdate(),9999-12-31 
+2015170002,cse10,cm02,no,curdate(),9999-12-31 
+2015170003,ece10,cm01,no,curdate(),9999-12-31 
+2015170004,cse10,cm01,yes,curdate(),9999-12-31 
+2015170005,fin01,cm02,yes,curdate(),9999-12-31 
+2015170006,fin01,cm02,no,curdate(),9999-12-31 
+2015170007,fin01,cm01,yes,curdate(),9999-12-31 

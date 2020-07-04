@@ -1,7 +1,5 @@
 import mysql.connector
-import sys
-sys.path.append("C:\\Users\\ann\\PycharmProjects\\DataModel\\connection")
-import configdetails
+from connection import configdetails
 
 def con():
     host, user, pwd, db = configdetails.conpar()

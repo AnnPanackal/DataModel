@@ -1,0 +1,5 @@
+123,'L','LAB EXAM',curdate(),9999-12-31' 
+456,'I','INTERNAL EXAM',curdate(),9999-12-31' 
+789,'S','SEMESTER',curdate(),9999-12-31' 
+345,'M','MONK SEMESTER',curdate(),9999-12-31' 
+12,'LI','INERNAL LAB',curdate(),9999-12-31' 

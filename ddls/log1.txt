@@ -74,3 +74,60 @@
 2020-07-03 21:56:02,261-DIMENSION : Staff_Details created!
 2020-07-03 21:56:03,308-DIMENSION : Calender_Details created!
 2020-07-03 21:56:04,919-DIMENSION : Placement_Details created!
+2020-07-04 16:05:17,664-STUDENT_REFERENCE created!
+2020-07-04 16:05:17,719-Fact : Payment created!
+2020-07-04 16:05:17,774-Fact : Academics created!
+2020-07-04 16:05:17,823-Fact : Student created!
+2020-07-04 16:05:17,873-FACT : Attendence created!
+2020-07-04 16:05:17,929-Fact : Placement created!
+2020-07-04 16:05:17,980-DIMENSION : Payment_Details created!
+2020-07-04 16:05:18,029-DIMENSION : Details created!
+2020-07-04 16:05:18,071-DIMENSION : Exam_Details created!
+2020-07-04 16:05:18,118-DIMENSION : Grade_Details created!
+2020-07-04 16:05:18,172-DIMENSION : Course_Details created!
+2020-07-04 16:05:18,227-DIMENSION : Dep_Details created!
+2020-07-04 16:05:18,280-DIMENSION : Staff_Details created!
+2020-07-04 16:05:18,329-DIMENSION : Calender_Details created!
+2020-07-04 16:05:18,397-DIMENSION : Placement_Details created!
+2020-07-04 20:27:32,761-STUDENT_REFERENCE-RECORDS inserted
+2020-07-04 21:06:42,371-STUDENT_REFERENCE-RECORDS inserted
+2020-07-04 21:13:16,524-STUDENT_REFERENCE-RECORDS inserted
+2020-07-04 21:14:16,872-FACT_PAYMENT-RECORDS inserted
+2020-07-04 21:31:33,019-FACT_ACADEMICS-RECORDS inserted
+2020-07-04 21:32:54,329-FACT_ACADEMICS-RECORDS inserted
+2020-07-04 21:33:03,335-FACT_ACADEMICS-RECORDS inserted
+2020-07-04 21:39:22,089-FACT_PLACEMENT-RECORDS inserted
+2020-07-04 22:23:50,650-FACT_STUDENT-RECORDS inserted
+2020-07-04 22:47:41,389-FACT_STUDENT-RECORDS inserted
+2020-07-04 22:51:37,575-STUDENT_REFERENCE created!
+2020-07-04 22:51:37,581-Fact : Payment created!
+2020-07-04 22:51:37,586-Fact : Academics created!
+2020-07-04 22:51:37,591-Fact : Student created!
+2020-07-04 22:51:37,673-FACT : Attendence created!
+2020-07-04 22:51:37,679-Fact : Placement created!
+2020-07-04 22:51:37,686-DIMENSION : Payment_Details created!
+2020-07-04 22:51:37,690-DIMENSION : Details created!
+2020-07-04 22:51:37,696-DIMENSION : Exam_Details created!
+2020-07-04 22:51:37,701-DIMENSION : Grade_Details created!
+2020-07-04 22:51:37,707-DIMENSION : Course_Details created!
+2020-07-04 22:51:37,712-DIMENSION : Dep_Details created!
+2020-07-04 22:51:37,717-DIMENSION : Staff_Details created!
+2020-07-04 22:51:37,721-DIMENSION : Calender_Details created!
+2020-07-04 22:51:37,726-DIMENSION : Placement_Details created!
+2020-07-04 22:51:38,018-FACT_STUDENT-RECORDS inserted
+2020-07-04 22:53:05,389-STUDENT_REFERENCE created!
+2020-07-04 22:53:05,393-Fact : Payment created!
+2020-07-04 22:53:05,397-Fact : Academics created!
+2020-07-04 22:53:05,400-Fact : Student created!
+2020-07-04 22:53:05,453-FACT : Attendence created!
+2020-07-04 22:53:05,457-Fact : Placement created!
+2020-07-04 22:53:05,462-DIMENSION : Payment_Details created!
+2020-07-04 22:53:05,465-DIMENSION : Details created!
+2020-07-04 22:53:05,469-DIMENSION : Exam_Details created!
+2020-07-04 22:53:05,473-DIMENSION : Grade_Details created!
+2020-07-04 22:53:05,476-DIMENSION : Course_Details created!
+2020-07-04 22:53:05,480-DIMENSION : Dep_Details created!
+2020-07-04 22:53:05,483-DIMENSION : Staff_Details created!
+2020-07-04 22:53:05,536-DIMENSION : Calender_Details created!
+2020-07-04 22:53:05,540-DIMENSION : Placement_Details created!
+2020-07-04 22:53:05,805-FACT_STUDENT-RECORDS inserted

@@ -1,0 +1,7 @@
+'S','VERY GOOD',curdate(),9999-12-31' 
+'A','GOOD',curdate(),9999-12-31' 
+'B','ABOVE AVERAGE',curdate(),9999-12-31' 
+'C','AVERAGE',curdate(),9999-12-31' 
+'D','BELOW AVERAGE',curdate(),9999-12-31' 
+'E','PASS',curdate(),9999-12-31' 
+'F','FAIL',curdate(),9999-12-31' 

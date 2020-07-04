@@ -1,5 +1,7 @@
 from connection import connection
 from logg import logfile
+from csv import reader
+from datetime import datetime
 
 
 class dbconn:
@@ -25,6 +27,12 @@ class dbconn:
             self.CalenderDetails(mydb, mycursor)
             self.PlacementDetails(mydb, mycursor)
 
+            '''self.insertSTUDENT_REFERENCE(mydb, mycursor)
+            self.insertFpayment(mydb,mycursor)
+            self.insertFacademics(mydb,mycursor)
+            self.insertFplacement(mydb,mycursor)
+            self.insertFstudent(mydb,mycursor)'''
+            self.insertFattendence(mydb,mycursor)
         except Exception as e:
             print("Error:",e)
 
@@ -105,11 +113,11 @@ class dbconn:
         """Creation of fact table for attendance."""
         try:
             sql='''create table if not exists FactAttendence(STUDENT_ID BIGINT NOT NULL,
-                     TIME_ID    INT,
-                     CURDATE       DATE,
+                     TIME_ID    VARCHAR(5),
+                     CURDATE    DATE,
                      COURSE_ID  VARCHAR(9),
                      STAFF_ID   VARCHAR(9),
-                     ATTENDENCE VARCHAR(2),
+                     ATTENDENCE VARCHAR(5),
                      ATTENDENCE_START_DATE DATETIME,
                      ATTENDENCE_END_DATE   DATETIME)'''
             #mycursor.execute("drop table FactAttendence")
@@ -249,7 +257,7 @@ class dbconn:
     def CalenderDetails(self, mydb, mycursor):
         """Creation of dimension table for  calender details."""
         try:
-            sql = '''create table if not exists calender_details(TIME_ID INT NOT NULL PRIMARY KEY,
+            sql = '''create table if not exists calender_details(TIME_ID VARCHAR(5) NOT NULL PRIMARY KEY,
                         HOLIDAY DATE,
                         HOLIDAY_START_DATE DATETIME,
                         HOLIDAY_END_DATE   DATETIME)'''
@@ -275,6 +283,113 @@ class dbconn:
             mydb.commit()
             l = logfile.logger()
             l.info("DIMENSION : Placement_Details created!")
+        except Exception as e:
+            print("Error:", e)
+
+    def insertSTUDENT_REFERENCE(self, mydb, mycursor):
+        """insertion of student reference table which contains details of the student."""
+        try:
+            with open(r"C:\Users\k.a.ramasubramanian\Desktop\Training\git\DataModel\prod_data\reference\student_reference.csv") as data:
+                for i in reader(data):
+                    sql = "INSERT INTO STUDENT_REFERENCE VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
+                    val = (i[0],i[1],i[2],i[3],i[4],i[5],i[6],i[7],datetime.now(),i[9])
+                    mycursor.execute(sql, val)
+                    mydb.commit()
+            print("No. of rows inserted:", mycursor.rowcount)
+            l = logfile.logger()
+            l.info("STUDENT_REFERENCE-RECORDS inserted")
+            print("Rows Inserted")
+        except Exception as e:
+            print("Error:", e)
+    def insertFpayment(self,mydb, mycursor):
+        """insertion of payment fact table which contains details of the student."""
+        try:
+            with open(r"C:\Users\k.a.ramasubramanian\Desktop\Training\git\DataModel\prod_data\fact\payment_fact.csv") as data:
+                #s = csv.reader(data)
+                for i in reader(data):
+                    sql = "INSERT INTO factpayment VALUES(%s,%s,%s,%s,%s)"
+                    val = (i[0],i[1],i[2],datetime.now(),i[4])
+                    mycursor.execute(sql, val)
+                    mydb.commit()
+            print("No. of rows inserted:", mycursor.rowcount)
+            l = logfile.logger()
+            l.info("FACT_PAYMENT-RECORDS inserted")
+            print("Rows Inserted")
+        except Exception as e:
+            print("Error:", e)
+    def insertFpayment(self,mydb, mycursor):
+        """insertion of payment fact table which contains details of the student."""
+        try:
+            with open(r"C:\Users\k.a.ramasubramanian\Desktop\Training\git\DataModel\prod_data\fact\payment_fact.csv") as data:
+                for i in reader(data):
+                    sql = "INSERT INTO factpayment VALUES(%s,%s,%s,%s,%s)"
+                    val = (i[0],i[1],i[2],datetime.now(),i[4])
+                    mycursor.execute(sql, val)
+                    mydb.commit()
+            print("No. of rows inserted:", mycursor.rowcount)
+            l = logfile.logger()
+            l.info("FACT_PAYMENT-RECORDS inserted")
+            print("Rows Inserted")
+        except Exception as e:
+            print("Error:", e)
+    def insertFacademics(self,mydb,mycursor):
+        """insertion of academics fact table which contains details of the student."""
+        try:
+            with open(r"C:\Users\k.a.ramasubramanian\Desktop\Training\git\DataModel\prod_data\fact\academics_fact.csv") as data:
+                for i in reader(data):
+                    sql = "INSERT INTO factacademics VALUES(%s,%s,%s,%s,%s,%s,%s,%s)"
+                    val = (i[0], i[1], i[2], i[3],i[4],i[5],datetime.now(), i[7])
+                    mycursor.execute(sql, val)
+                    mydb.commit()
+            print("No. of rows inserted:", mycursor.rowcount)
+            l = logfile.logger()
+            l.info("FACT_ACADEMICS-RECORDS inserted")
+            print("Rows Inserted")
+        except Exception as e:
+            print("Error:", e)
+    def insertFplacement(self,mydb, mycursor):
+        """insertion of placement fact table which contains details of the student."""
+        try:
+            with open(r"C:\Users\k.a.ramasubramanian\Desktop\Training\git\DataModel\prod_data\fact\placement_fact.csv") as data:
+                for i in reader(data):
+                    sql = "INSERT INTO factplacement VALUES(%s,%s,%s,%s,%s,%s)"
+                    val = (i[0], i[1], i[2], i[3],datetime.now(), i[5])
+                    mycursor.execute(sql, val)
+                    mydb.commit()
+            print("No. of rows inserted:", mycursor.rowcount)
+            l = logfile.logger()
+            l.info("FACT_PLACEMENT-RECORDS inserted")
+            print("Rows Inserted")
+        except Exception as e:
+            print("Error:", e)
+    def insertFstudent(self,mydb, mycursor):
+        """insertion of placement fact table which contains details of the student."""
+        try:
+            with open(r"C:\Users\k.a.ramasubramanian\Desktop\Training\git\DataModel\prod_data\fact\student_fact.csv") as data:
+                for i in reader(data):
+                    sql = "INSERT INTO factstudent VALUES(%s,%s,%s,%s,%s,%s)"
+                    val = (i[0], i[1], i[2], i[3],datetime.now(), i[5])
+                    mycursor.execute(sql,val)
+                    mydb.commit()
+            print("No. of rows inserted:", mycursor.rowcount)
+            l = logfile.logger()
+            l.info("FACT_STUDENT-RECORDS inserted")
+            print("Rows Inserted")
+        except Exception as e:
+            print("Error:", e)
+    def insertFattendence(self,mydb, mycursor):
+        """insertion of placement fact table which contains details of the student."""
+        try:
+            with open(r"C:\Users\k.a.ramasubramanian\Desktop\Training\git\DataModel\prod_data\fact\attendance_fact.csv") as data:
+                for i in reader(data):
+                    sql = "INSERT INTO factattendence VALUES(%s,%s,%s,%s,%s,%s,%s,%s)"
+                    val = (i[0], i[1], i[2], i[3],i[4],i[5],datetime.now(), i[7])
+                    mycursor.execute(sql,val)
+                    mydb.commit()
+            print("No. of rows inserted:", mycursor.rowcount)
+            l = logfile.logger()
+            l.info("FACT_STUDENT-RECORDS inserted")
+            print("Rows Inserted")
         except Exception as e:
             print("Error:", e)
 
