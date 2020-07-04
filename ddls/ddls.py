@@ -317,21 +317,6 @@ class dbconn:
             print("Rows Inserted")
         except Exception as e:
             print("Error:", e)
-    def insertFpayment(self,mydb, mycursor):
-        """insertion of payment fact table which contains details of the student."""
-        try:
-            with open(r"C:\Users\k.a.ramasubramanian\Desktop\Training\git\DataModel\prod_data\fact\payment_fact.csv") as data:
-                for i in reader(data):
-                    sql = "INSERT INTO factpayment VALUES(%s,%s,%s,%s,%s)"
-                    val = (i[0],i[1],i[2],datetime.now(),i[4])
-                    mycursor.execute(sql, val)
-                    mydb.commit()
-            print("No. of rows inserted:", mycursor.rowcount)
-            l = logfile.logger()
-            l.info("FACT_PAYMENT-RECORDS inserted")
-            print("Rows Inserted")
-        except Exception as e:
-            print("Error:", e)
     def insertFacademics(self,mydb,mycursor):
         """insertion of academics fact table which contains details of the student."""
         try:
