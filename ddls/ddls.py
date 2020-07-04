@@ -27,11 +27,11 @@ class dbconn:
             self.CalenderDetails(mydb, mycursor)
             self.PlacementDetails(mydb, mycursor)
 
-            '''self.insertSTUDENT_REFERENCE(mydb, mycursor)
+            self.insertSTUDENT_REFERENCE(mydb, mycursor)
             self.insertFpayment(mydb,mycursor)
             self.insertFacademics(mydb,mycursor)
             self.insertFplacement(mydb,mycursor)
-            self.insertFstudent(mydb,mycursor)'''
+            self.insertFstudent(mydb,mycursor)
             self.insertFattendence(mydb,mycursor)
         except Exception as e:
             print("Error:",e)
