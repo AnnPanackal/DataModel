@@ -1,2 +1,2 @@
-cm01,'Accenture','SVCE',curdate(),curdate(),9999-12-31' 
-cm02,'Infosys','SVCE',curdate(),curdate(),9999-12-31' 
+cm01,Accenture,SVCE,2020-08-12,9999-12-31 
+cm02,Infosys,SVCE,2020-08-18,9999-12-31 
