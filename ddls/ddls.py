@@ -1,8 +1,10 @@
-from connection import connection
-from logg import logfile
+import sys
+sys.path.append(r"C:\Users\mohan\Desktop\DataModel\logg")
+sys.path.append(r"C:\Users\mohan\Desktop\DataModel\connection")
+import connection
+import logfile
 from csv import reader
 from datetime import datetime
-
 
 class dbconn:
     def __init__(self):
@@ -27,12 +29,23 @@ class dbconn:
             self.CalenderDetails(mydb, mycursor)
             self.PlacementDetails(mydb, mycursor)
 
-            self.insertSTUDENT_REFERENCE(mydb, mycursor)
-            self.insertFpayment(mydb,mycursor)
-            self.insertFacademics(mydb,mycursor)
-            self.insertFplacement(mydb,mycursor)
-            self.insertFstudent(mydb,mycursor)
-            self.insertFattendence(mydb,mycursor)
+            # self.insertSTUDENT_REFERENCE(mydb, mycursor)
+            # self.insertFpayment(mydb,mycursor)
+            # self.insertFacademics(mydb,mycursor)
+            # self.insertFplacement(mydb,mycursor)
+            # self.insertFstudent(mydb,mycursor)
+            # self.insertFattendence(mydb,mycursor)
+            
+            self.InsertPaymentDetails(mydb, mycursor)
+            self.InserDegree(mydb, mycursor)
+            self.InsertExamDetails(mydb, mycursor)
+            self.InsertGradeDetails(mydb, mycursor)
+            self.InsertCourseDetails(mydb, mycursor)
+            self.InsertDeptDetails(mydb, mycursor)
+            self.InsertStaffDetails(mydb, mycursor)
+            self.InsertCalendarDetails(mydb, mycursor)
+            self.InsertPlacementDetails(mydb, mycursor)
+            
         except Exception as e:
             print("Error:",e)
 
@@ -227,7 +240,7 @@ class dbconn:
         """Creation of dimension table for  department details."""
         try:
             sql = '''create table if not exists department_details(DEP_ID VARCHAR(9) NOT NULL PRIMARY KEY,
-                        DEP_NAME VARCHAR(20),
+                        DEP_NAME VARCHAR(50),
                         DEP_START_DATE DATETIME,
                         DEP_END_DATE   DATETIME)'''
             #mycursor.execute("drop table department_details")
@@ -377,8 +390,176 @@ class dbconn:
             print("Rows Inserted")
         except Exception as e:
             print("Error:", e)
+   
+    def InsertPaymentDetails(self,mydb,mycursor):
+        """insertion of payment details of the student into the payment details dimension table."""
+        try:        
+            filename = 'C:\\Users\\mohan\\Desktop\\csv\\dimension\\payment_dim.csv'
+            with open(filename,'r') as fr:
+                for line in fr.readlines():
+                    col_value = line.replace('\n','').split(',')
+                    insert_query = ("insert into payment_details values('{}','{}','{}','{}','{}')" 
+                                       .format(col_value[0],col_value[1],col_value[2],datetime.now(),col_value[3]))
+                  
+                    mycursor.execute(insert_query)
+            mydb.commit()
+            l = logfile.logger()
+            l.info("Values inserted into the payment_details table successfully!")
+        except Exception as e:
+            l = logfile.logger()
+            l.info(e)
+            print("Error:",e)
+
+    def InserDegree(self,mydb,mycursor):
+        """insertion of degree details of the student into the degree details dimension table."""
+        try:        
+            filename = 'C:\\Users\\mohan\\Desktop\\csv\\dimension\\degree_dim.csv'
+            with open(filename,'r') as fr:
+                for line in fr.readlines():
+                    col_value = line.replace('\n','').split(',')
+                    insert_query = ("insert into degree values('{}','{}','{}', '{}','{}')"
+                                    .format(col_value[0], col_value[1], col_value[2], datetime.now(), col_value[3])) 
+                  
+                    mycursor.execute(insert_query)
+            mydb.commit()
+            l = logfile.logger()
+            l.info("Values inserted into the degree table successfully!")
+        except Exception as e:
+            l = logfile.logger()
+            l.info(e)
+            print("Error:",e)
+
+
+    def InsertExamDetails(self,mydb,mycursor):
+        """insertion of exam details of the student into the exam details dimension table."""
+        try:        
+            filename = 'C:\\Users\\mohan\\Desktop\\csv\\dimension\\exams_dim.csv'
+            with open(filename,'r') as fr:
+                for line in fr.readlines():
+                    col_value = line.replace('\n','').split(',')
+                    insert_query =("insert into exam_details values('{}','{}','{}','{}','{}')"
+                                    .format(col_value[0],col_value[1],col_value[2],datetime.now(),col_value[3]))
+                  
+                    mycursor.execute(insert_query)
+            mydb.commit()
+            l = logfile.logger()
+            l.info("Values inserted into the exam_details table successfully!")
+        except Exception as e:
+            l = logfile.logger()
+            l.info(e)
+            print("Error:",e)
+
+    def InsertGradeDetails(self,mydb,mycursor):
+        """insertion of grade details of the student into the grade details dimension table."""
+        try:        
+            filename = 'C:\\Users\\mohan\\Desktop\\csv\\dimension\\grade_dim.csv'
+            with open(filename,'r') as fr:
+                for line in fr.readlines():
+                    col_value = line.replace('\n','').split(',')
+                    insert_query = ("insert into grade_details values('{}','{}','{}','{}')"
+                                    .format(col_value[0],col_value[1],datetime.now(),col_value[2]))
+                  
+                    mycursor.execute(insert_query)
+            mydb.commit()
+            l = logfile.logger()
+            l.info("Values inserted into the grade_details table successfully!")
+        except Exception as e:
+            l = logfile.logger()
+            l.info(e)
+            print("Error:",e)
+
+    def InsertCourseDetails(self,mydb,mycursor):
+        """insertion of course details of the student into the course details dimension table."""
+        try:        
+            filename = 'C:\\Users\\mohan\\Desktop\\csv\\dimension\\course_dim.csv'
+            with open(filename,'r') as fr:
+                for line in fr.readlines():
+                    col_value = line.replace('\n','').split(',')
+                    insert_query = ("insert into course_details values('{}','{}','{}','{}')"
+                                    .format(col_value[0],col_value[1],datetime.now(),col_value[2]))
+                  
+                    mycursor.execute(insert_query)
+            mydb.commit()
+            l = logfile.logger()
+            l.info("Values inserted into the course_details table successfully!")
+        except Exception as e:
+            l = logfile.logger()
+            l.info(e)
+            print("Error:",e)
+
+    def InsertDeptDetails(self,mydb,mycursor):
+        """insertion of department details of the student into the department details dimension table."""
+        try:        
+            filename = 'C:\\Users\\mohan\\Desktop\\csv\\dimension\\department_dim.csv'
+            with open(filename,'r') as fr:
+                for line in fr.readlines():
+                    col_value = line.replace('\n','').split(',')
+                    insert_query = ("insert into department_details values('{}','{}','{}','{}')"
+                                    .format(col_value[0],col_value[1],col_value[2], datetime.now(),col_value[2]))
+ 
+                  
+                    mycursor.execute(insert_query)
+            mydb.commit()
+            l = logfile.logger()
+            l.info("Values inserted into the department_details table successfully!")
+        except Exception as e:
+            l = logfile.logger()
+            l.info(e)
+            print("Error deo:",e)
+
+    def InsertStaffDetails(self,mydb,mycursor):
+        """insertion of staff detail into the staff details dimention table."""
+        try:        
+            filename = 'C:\\Users\\mohan\\Desktop\\csv\\dimension\\staff_dim.csv'
+            with open(filename,'r') as fr:
+                for line in fr.readlines():
+                    col_value = line.replace('\n','').split(',')
+                    insert_query = ("insert into staff_details values('{}','{}','{}','{}','{}')"
+                                    .format(col_value[0],col_value[1],col_value[2], datetime.now(),col_value[3]))
+                    mycursor.execute(insert_query)
+            mydb.commit()
+            l = logfile.logger()
+            l.info("Values inserted into the Staff_details table successfully!")
+        except Exception as e:
+            l = logfile.logger()
+            l.info(e)
+            print("Error:",e)
+
+    def InsertPlacementDetails(self,mydb,mycursor):
+        """insertion of placement details of the student into the placement details dimension table."""
+        try:        
+            filename = 'C:\\Users\\mohan\\Desktop\\csv\\dimension\\company_dim.csv'
+            with open(filename,'r') as fr:
+                for line in fr.readlines():
+                    col_value = line.replace('\n','').split(',')
+                    insert_query = ("insert into placement_details values('{}','{}','{}','{}','{}','{}')"
+								.format(col_value[0],col_value[1], col_value[2], col_value[3], datetime.now(), col_value[4]))
+                    mycursor.execute(insert_query)
+            mydb.commit()
+            l = logfile.logger()
+            l.info("Values inserted into the placement_details table successfully!")
+        except Exception as e:
+            l = logfile.logger()
+            l.info(e)
+            print("Error:",e)
+
+    def InsertCalendarDetails(self,mydb,mycursor):
+        """insertion of calendar details into the degree details dimension table."""
+        try:        
+            filename = 'C:\\Users\\mohan\\Desktop\\csv\\dimension\\time_dim.csv'
+            with open(filename,'r') as fr:
+                for line in fr.readlines():
+                    col_value = line.replace('\n','').split(',')
+                    insert_query = ("insert into calender_details values('{}','{}','{}','{}')" 
+                                    .format(col_value[0],col_value[1], datetime.now(), col_value[2]))
+                  
+                    mycursor.execute(insert_query)
+            mydb.commit()
+            l = logfile.logger()
+            l.info("Values inserted into the calendar_details table successfully!")
+        except Exception as e:
+            l = logfile.logger()
+            l.info(e)
+            print("Error :",e)
 
 obj=dbconn()
-
-
-
