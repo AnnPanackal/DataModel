@@ -10,6 +10,7 @@ class dbconn:
     def __init__(self):
         """Connection with the database is established and the functions for table creation are invoked"""
         try:
+            l = logfile.logger()
             mydb = connection.con()
             mycursor = mydb.cursor()
             self.createSTUDENT_REFERENCE(mydb, mycursor)
@@ -36,15 +37,15 @@ class dbconn:
             # self.insertFstudent(mydb,mycursor)
             # self.insertFattendence(mydb,mycursor)
             
-            self.InsertPaymentDetails(mydb, mycursor)
-            self.InserDegree(mydb, mycursor)
-            self.InsertExamDetails(mydb, mycursor)
-            self.InsertGradeDetails(mydb, mycursor)
-            self.InsertCourseDetails(mydb, mycursor)
-            self.InsertDeptDetails(mydb, mycursor)
-            self.InsertStaffDetails(mydb, mycursor)
-            self.InsertCalendarDetails(mydb, mycursor)
-            self.InsertPlacementDetails(mydb, mycursor)
+            # self.InsertPaymentDetails(mydb, mycursor)
+            # self.InserDegree(mydb, mycursor)
+            # self.InsertExamDetails(mydb, mycursor)
+            # self.InsertGradeDetails(mydb, mycursor)
+            # self.InsertCourseDetails(mydb, mycursor)
+            # self.InsertDeptDetails(mydb, mycursor)
+            # self.InsertStaffDetails(mydb, mycursor)
+            # self.InsertCalendarDetails(mydb, mycursor)
+            # self.InsertPlacementDetails(mydb, mycursor)
             
         except Exception as e:
             print("Error:",e)

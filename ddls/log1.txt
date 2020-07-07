@@ -1,133 +1,661 @@
-2020-07-03 16:05:48,439-STUDENT_REFERENCE created!
-2020-07-03 18:18:06,843-STUDENT_REFERENCE created!
-2020-07-03 18:19:29,659-STUDENT_REFERENCE created!
-2020-07-03 18:19:30,860-Fact : Payment created!
-2020-07-03 18:31:48,249-STUDENT_REFERENCE created!
-2020-07-03 18:31:50,398-Fact : Payment created!
-2020-07-03 18:32:27,756-STUDENT_REFERENCE created!
-2020-07-03 18:32:30,103-Fact : Payment created!
-2020-07-03 18:32:31,765-Fact : Payment created!
-2020-07-03 18:32:58,775-STUDENT_REFERENCE created!
-2020-07-03 18:33:00,150-Fact : Payment created!
-2020-07-03 18:33:00,400-Fact : Payment created!
-2020-07-03 18:33:55,311-STUDENT_REFERENCE created!
-2020-07-03 18:33:56,672-Fact : Payment created!
-2020-07-03 18:33:58,203-Fact : Academics created!
-2020-07-03 18:33:58,375-Fact : Payment created!
-2020-07-03 18:49:27,218-STUDENT_REFERENCE created!
-2020-07-03 18:49:27,312-Fact : Payment created!
-2020-07-03 18:49:27,468-Fact : Academics created!
-2020-07-03 18:49:27,546-Fact : Student created!
-2020-07-03 18:49:30,842-Fact : Placement created!
-2020-07-03 20:05:02,181-STUDENT_REFERENCE created!
-2020-07-03 20:05:03,961-Fact : Payment created!
-2020-07-03 20:05:05,805-Fact : Academics created!
-2020-07-03 20:05:07,929-Fact : Student created!
-2020-07-03 20:05:10,600-Fact : Placement created!
-2020-07-03 20:07:37,337-STUDENT_REFERENCE created!
-2020-07-03 20:07:40,892-Fact : Payment created!
-2020-07-03 20:07:42,047-Fact : Academics created!
-2020-07-03 20:07:43,250-Fact : Student created!
-2020-07-03 20:07:44,078-FACT : Attendence created!
-2020-07-03 20:07:45,203-Fact : Placement created!
-2020-07-03 21:27:36,312-STUDENT_REFERENCE created!
-2020-07-03 21:27:37,725-Fact : Payment created!
-2020-07-03 21:27:39,621-Fact : Academics created!
-2020-07-03 21:27:44,048-Fact : Student created!
-2020-07-03 21:27:46,847-FACT : Attendence created!
-2020-07-03 21:27:46,926-Fact : Placement created!
-2020-07-03 21:28:21,537-STUDENT_REFERENCE created!
-2020-07-03 21:28:22,392-Fact : Payment created!
-2020-07-03 21:28:23,853-Fact : Academics created!
-2020-07-03 21:28:25,138-Fact : Student created!
-2020-07-03 21:28:26,435-FACT : Attendence created!
-2020-07-03 21:28:26,487-Fact : Placement created!
-2020-07-03 21:28:29,694-DIMENSION : Payment_Details created!
-2020-07-03 21:28:31,145-DIMENSION : Details created!
-2020-07-03 21:52:50,911-STUDENT_REFERENCE created!
-2020-07-03 21:52:50,989-Fact : Payment created!
-2020-07-03 21:52:51,064-Fact : Academics created!
-2020-07-03 21:52:51,142-Fact : Student created!
-2020-07-03 21:52:51,189-FACT : Attendence created!
-2020-07-03 21:52:51,267-Fact : Placement created!
-2020-07-03 21:52:51,376-DIMENSION : Payment_Details created!
-2020-07-03 21:52:51,423-DIMENSION : Details created!
-2020-07-03 21:52:52,722-DIMENSION : Exam_Details created!
-2020-07-03 21:52:53,356-DIMENSION : Grade_Details created!
-2020-07-03 21:52:54,029-DIMENSION : Course_Details created!
-2020-07-03 21:52:54,703-DIMENSION : Dep_Details created!
-2020-07-03 21:52:55,235-DIMENSION : Staff_Details created!
-2020-07-03 21:52:56,042-DIMENSION : Calender_Details created!
-2020-07-03 21:52:57,183-DIMENSION : Placement_Details created!
-2020-07-03 21:55:36,690-STUDENT_REFERENCE created!
-2020-07-03 21:55:38,118-Fact : Payment created!
-2020-07-03 21:55:39,447-Fact : Academics created!
-2020-07-03 21:55:42,713-Fact : Student created!
-2020-07-03 21:55:44,880-FACT : Attendence created!
-2020-07-03 21:55:46,831-Fact : Placement created!
-2020-07-03 21:55:48,612-DIMENSION : Payment_Details created!
-2020-07-03 21:55:50,012-DIMENSION : Details created!
-2020-07-03 21:55:51,501-DIMENSION : Exam_Details created!
-2020-07-03 21:55:52,797-DIMENSION : Grade_Details created!
-2020-07-03 21:55:56,511-DIMENSION : Course_Details created!
-2020-07-03 21:56:00,625-DIMENSION : Dep_Details created!
-2020-07-03 21:56:02,261-DIMENSION : Staff_Details created!
-2020-07-03 21:56:03,308-DIMENSION : Calender_Details created!
-2020-07-03 21:56:04,919-DIMENSION : Placement_Details created!
-2020-07-04 16:05:17,664-STUDENT_REFERENCE created!
-2020-07-04 16:05:17,719-Fact : Payment created!
-2020-07-04 16:05:17,774-Fact : Academics created!
-2020-07-04 16:05:17,823-Fact : Student created!
-2020-07-04 16:05:17,873-FACT : Attendence created!
-2020-07-04 16:05:17,929-Fact : Placement created!
-2020-07-04 16:05:17,980-DIMENSION : Payment_Details created!
-2020-07-04 16:05:18,029-DIMENSION : Details created!
-2020-07-04 16:05:18,071-DIMENSION : Exam_Details created!
-2020-07-04 16:05:18,118-DIMENSION : Grade_Details created!
-2020-07-04 16:05:18,172-DIMENSION : Course_Details created!
-2020-07-04 16:05:18,227-DIMENSION : Dep_Details created!
-2020-07-04 16:05:18,280-DIMENSION : Staff_Details created!
-2020-07-04 16:05:18,329-DIMENSION : Calender_Details created!
-2020-07-04 16:05:18,397-DIMENSION : Placement_Details created!
-2020-07-04 20:27:32,761-STUDENT_REFERENCE-RECORDS inserted
-2020-07-04 21:06:42,371-STUDENT_REFERENCE-RECORDS inserted
-2020-07-04 21:13:16,524-STUDENT_REFERENCE-RECORDS inserted
-2020-07-04 21:14:16,872-FACT_PAYMENT-RECORDS inserted
-2020-07-04 21:31:33,019-FACT_ACADEMICS-RECORDS inserted
-2020-07-04 21:32:54,329-FACT_ACADEMICS-RECORDS inserted
-2020-07-04 21:33:03,335-FACT_ACADEMICS-RECORDS inserted
-2020-07-04 21:39:22,089-FACT_PLACEMENT-RECORDS inserted
-2020-07-04 22:23:50,650-FACT_STUDENT-RECORDS inserted
-2020-07-04 22:47:41,389-FACT_STUDENT-RECORDS inserted
-2020-07-04 22:51:37,575-STUDENT_REFERENCE created!
-2020-07-04 22:51:37,581-Fact : Payment created!
-2020-07-04 22:51:37,586-Fact : Academics created!
-2020-07-04 22:51:37,591-Fact : Student created!
-2020-07-04 22:51:37,673-FACT : Attendence created!
-2020-07-04 22:51:37,679-Fact : Placement created!
-2020-07-04 22:51:37,686-DIMENSION : Payment_Details created!
-2020-07-04 22:51:37,690-DIMENSION : Details created!
-2020-07-04 22:51:37,696-DIMENSION : Exam_Details created!
-2020-07-04 22:51:37,701-DIMENSION : Grade_Details created!
-2020-07-04 22:51:37,707-DIMENSION : Course_Details created!
-2020-07-04 22:51:37,712-DIMENSION : Dep_Details created!
-2020-07-04 22:51:37,717-DIMENSION : Staff_Details created!
-2020-07-04 22:51:37,721-DIMENSION : Calender_Details created!
-2020-07-04 22:51:37,726-DIMENSION : Placement_Details created!
-2020-07-04 22:51:38,018-FACT_STUDENT-RECORDS inserted
-2020-07-04 22:53:05,389-STUDENT_REFERENCE created!
-2020-07-04 22:53:05,393-Fact : Payment created!
-2020-07-04 22:53:05,397-Fact : Academics created!
-2020-07-04 22:53:05,400-Fact : Student created!
-2020-07-04 22:53:05,453-FACT : Attendence created!
-2020-07-04 22:53:05,457-Fact : Placement created!
-2020-07-04 22:53:05,462-DIMENSION : Payment_Details created!
-2020-07-04 22:53:05,465-DIMENSION : Details created!
-2020-07-04 22:53:05,469-DIMENSION : Exam_Details created!
-2020-07-04 22:53:05,473-DIMENSION : Grade_Details created!
-2020-07-04 22:53:05,476-DIMENSION : Course_Details created!
-2020-07-04 22:53:05,480-DIMENSION : Dep_Details created!
-2020-07-04 22:53:05,483-DIMENSION : Staff_Details created!
-2020-07-04 22:53:05,536-DIMENSION : Calender_Details created!
-2020-07-04 22:53:05,540-DIMENSION : Placement_Details created!
-2020-07-04 22:53:05,805-FACT_STUDENT-RECORDS inserted
+2020-07-07 00:50:27,782-DIMENSION : Payment_Details created!
+2020-07-07 00:50:28,964-DIMENSION : Details created!
+2020-07-07 00:53:20,147-DIMENSION : Payment_Details created!
+2020-07-07 00:53:23,509-DIMENSION : Details created!
+2020-07-07 00:54:03,913-DIMENSION : Payment_Details created!
+2020-07-07 00:54:05,363-DIMENSION : Details created!
+2020-07-07 00:54:05,365-1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' 
+)' at line 1
+2020-07-07 00:54:58,183-DIMENSION : Payment_Details created!
+2020-07-07 00:54:59,188-DIMENSION : Details created!
+2020-07-07 00:54:59,190-payment_details
+2020-07-07 00:56:07,203-DIMENSION : Payment_Details created!
+2020-07-07 00:56:08,669-DIMENSION : Details created!
+2020-07-07 00:56:08,862-payment_details
+2020-07-07 00:56:40,424-DIMENSION : Payment_Details created!
+2020-07-07 00:56:41,714-DIMENSION : Details created!
+2020-07-07 00:56:42,158-Exam_details
+2020-07-07 00:58:04,319-DIMENSION : Payment_Details created!
+2020-07-07 00:58:06,578-DIMENSION : Details created!
+2020-07-07 00:58:06,613-payment_details
+2020-07-07 00:58:06,615-payment_details
+2020-07-07 00:58:06,616-payment_details
+2020-07-07 00:58:06,617-payment_details
+2020-07-07 00:58:06,619-payment_details
+2020-07-07 00:58:06,671-degree
+2020-07-07 00:58:06,673-degree
+2020-07-07 00:58:06,674-degree
+2020-07-07 00:58:06,674-Exam_details
+2020-07-07 01:02:04,102-DIMENSION : Payment_Details created!
+2020-07-07 01:02:05,027-DIMENSION : Details created!
+2020-07-07 01:02:05,112-payment_details
+2020-07-07 01:02:05,116-payment_details
+2020-07-07 01:02:05,117-payment_details
+2020-07-07 01:02:05,118-payment_details
+2020-07-07 01:02:05,119-payment_details
+2020-07-07 01:02:05,126-degree
+2020-07-07 01:02:05,130-degree
+2020-07-07 01:02:05,131-degree
+2020-07-07 01:02:05,131-Exam_details
+2020-07-07 01:02:19,132-DIMENSION : Payment_Details created!
+2020-07-07 01:02:20,317-DIMENSION : Details created!
+2020-07-07 01:02:20,341-payment_details
+2020-07-07 01:02:20,342-payment_details
+2020-07-07 01:02:20,343-payment_details
+2020-07-07 01:02:20,344-payment_details
+2020-07-07 01:02:20,345-payment_details
+2020-07-07 01:02:20,365-degree
+2020-07-07 01:02:20,366-degree
+2020-07-07 01:02:20,367-degree
+2020-07-07 01:02:20,368-Exam_details
+2020-07-07 01:06:05,332-DIMENSION : Payment_Details created!
+2020-07-07 01:06:07,455-DIMENSION : Details created!
+2020-07-07 01:06:07,463-payment_details
+2020-07-07 01:06:07,464-payment_details
+2020-07-07 01:06:07,466-payment_details
+2020-07-07 01:06:07,468-payment_details
+2020-07-07 01:06:07,470-payment_details
+2020-07-07 01:06:07,543-degree
+2020-07-07 01:06:07,547-degree
+2020-07-07 01:06:07,548-degree
+2020-07-07 01:06:07,548-Exam_details
+2020-07-07 01:06:51,242-DIMENSION : Payment_Details created!
+2020-07-07 01:06:52,977-DIMENSION : Details created!
+2020-07-07 01:06:52,990-payment_details
+2020-07-07 01:06:52,994-payment_details
+2020-07-07 01:06:52,995-payment_details
+2020-07-07 01:06:52,996-payment_details
+2020-07-07 01:06:52,997-payment_details
+2020-07-07 01:06:53,081-degree
+2020-07-07 01:06:53,081-degree
+2020-07-07 01:06:53,085-degree
+2020-07-07 01:06:53,086-Exam_details
+2020-07-07 01:07:52,760-DIMENSION : Payment_Details created!
+2020-07-07 01:07:53,649-DIMENSION : Details created!
+2020-07-07 01:07:53,707-payment_details
+2020-07-07 01:07:53,709-payment_details
+2020-07-07 01:07:53,710-payment_details
+2020-07-07 01:07:53,711-payment_details
+2020-07-07 01:07:53,712-payment_details
+2020-07-07 01:07:53,719-degree
+2020-07-07 01:07:53,720-degree
+2020-07-07 01:07:53,721-degree
+2020-07-07 01:07:53,870-Exam_details
+2020-07-07 01:07:53,873-Exam_details
+2020-07-07 01:07:53,874-Exam_details
+2020-07-07 01:07:53,875-Exam_details
+2020-07-07 01:07:53,876-Exam_details
+2020-07-07 01:07:53,877-Grade_details
+2020-07-07 01:08:25,831-DIMENSION : Payment_Details created!
+2020-07-07 01:08:27,288-DIMENSION : Details created!
+2020-07-07 01:08:27,332-payment_details
+2020-07-07 01:08:27,333-payment_details
+2020-07-07 01:08:27,334-payment_details
+2020-07-07 01:08:27,336-payment_details
+2020-07-07 01:08:27,337-payment_details
+2020-07-07 01:08:27,378-degree
+2020-07-07 01:08:27,379-degree
+2020-07-07 01:08:27,381-degree
+2020-07-07 01:08:27,384-Exam_details
+2020-07-07 01:08:27,384-Exam_details
+2020-07-07 01:08:27,386-Exam_details
+2020-07-07 01:08:27,388-Exam_details
+2020-07-07 01:08:27,389-Exam_details
+2020-07-07 01:08:27,495-Grade_details
+2020-07-07 01:08:27,496-Grade_details
+2020-07-07 01:08:27,497-Grade_details
+2020-07-07 01:08:27,498-Grade_details
+2020-07-07 01:08:27,500-Grade_details
+2020-07-07 01:08:27,500-Grade_details
+2020-07-07 01:08:27,501-Grade_details
+2020-07-07 01:08:27,529-course_details
+2020-07-07 01:09:45,603-DIMENSION : Payment_Details created!
+2020-07-07 01:09:46,960-DIMENSION : Details created!
+2020-07-07 01:09:46,998-payment_details
+2020-07-07 01:09:46,999-payment_details
+2020-07-07 01:09:47,000-payment_details
+2020-07-07 01:09:47,001-payment_details
+2020-07-07 01:09:47,002-payment_details
+2020-07-07 01:09:47,009-degree
+2020-07-07 01:09:47,011-degree
+2020-07-07 01:09:47,012-degree
+2020-07-07 01:09:47,014-Exam_details
+2020-07-07 01:09:47,015-Exam_details
+2020-07-07 01:09:47,017-Exam_details
+2020-07-07 01:09:47,018-Exam_details
+2020-07-07 01:09:47,019-Exam_details
+2020-07-07 01:09:47,020-Grade_details
+2020-07-07 01:09:47,022-Grade_details
+2020-07-07 01:09:47,023-Grade_details
+2020-07-07 01:09:47,024-Grade_details
+2020-07-07 01:09:47,025-Grade_details
+2020-07-07 01:09:47,026-Grade_details
+2020-07-07 01:09:47,027-Grade_details
+2020-07-07 01:09:47,030-course_details
+2020-07-07 01:10:26,784-DIMENSION : Payment_Details created!
+2020-07-07 01:10:29,324-DIMENSION : Details created!
+2020-07-07 01:10:29,505-payment_details
+2020-07-07 01:10:29,509-payment_details
+2020-07-07 01:10:29,555-payment_details
+2020-07-07 01:10:29,556-payment_details
+2020-07-07 01:10:29,559-payment_details
+2020-07-07 01:10:29,569-degree
+2020-07-07 01:10:29,571-degree
+2020-07-07 01:10:29,573-degree
+2020-07-07 01:10:29,621-Exam_details
+2020-07-07 01:10:29,622-Exam_details
+2020-07-07 01:10:29,625-Exam_details
+2020-07-07 01:10:29,627-Exam_details
+2020-07-07 01:10:29,628-Exam_details
+2020-07-07 01:10:29,630-Grade_details
+2020-07-07 01:10:29,632-Grade_details
+2020-07-07 01:10:29,633-Grade_details
+2020-07-07 01:10:29,635-Grade_details
+2020-07-07 01:10:29,637-Grade_details
+2020-07-07 01:10:29,638-Grade_details
+2020-07-07 01:10:29,639-Grade_details
+2020-07-07 01:10:29,741-course_details
+2020-07-07 01:10:29,760-course_details
+2020-07-07 01:10:29,761-course_details
+2020-07-07 01:10:29,763-course_details
+2020-07-07 01:10:29,764-course_details
+2020-07-07 01:10:29,766-course_details
+2020-07-07 01:10:29,768-course_details
+2020-07-07 01:10:29,770-course_details
+2020-07-07 01:10:29,771-course_details
+2020-07-07 01:10:29,773-course_details
+2020-07-07 01:10:29,774-course_details
+2020-07-07 01:10:29,776-course_details
+2020-07-07 01:10:29,778-department_details
+2020-07-07 01:11:08,768-DIMENSION : Payment_Details created!
+2020-07-07 01:11:09,928-DIMENSION : Details created!
+2020-07-07 01:11:10,021-payment_details
+2020-07-07 01:11:10,022-payment_details
+2020-07-07 01:11:10,023-payment_details
+2020-07-07 01:11:10,025-payment_details
+2020-07-07 01:11:10,026-payment_details
+2020-07-07 01:11:10,026-degree
+2020-07-07 01:11:10,029-degree
+2020-07-07 01:11:10,030-degree
+2020-07-07 01:11:10,033-Exam_details
+2020-07-07 01:11:10,034-Exam_details
+2020-07-07 01:11:10,035-Exam_details
+2020-07-07 01:11:10,036-Exam_details
+2020-07-07 01:11:10,036-Exam_details
+2020-07-07 01:11:10,074-Grade_details
+2020-07-07 01:11:10,075-Grade_details
+2020-07-07 01:11:10,076-Grade_details
+2020-07-07 01:11:10,077-Grade_details
+2020-07-07 01:11:10,078-Grade_details
+2020-07-07 01:11:10,079-Grade_details
+2020-07-07 01:11:10,080-Grade_details
+2020-07-07 01:11:10,101-course_details
+2020-07-07 01:11:10,102-course_details
+2020-07-07 01:11:10,103-course_details
+2020-07-07 01:11:10,104-course_details
+2020-07-07 01:11:10,106-course_details
+2020-07-07 01:11:10,107-course_details
+2020-07-07 01:11:10,108-course_details
+2020-07-07 01:11:10,109-course_details
+2020-07-07 01:11:10,110-course_details
+2020-07-07 01:11:10,112-course_details
+2020-07-07 01:11:10,113-course_details
+2020-07-07 01:11:10,114-course_details
+2020-07-07 01:11:10,192-department_details
+2020-07-07 01:11:10,192-department_details
+2020-07-07 01:11:10,195-department_details
+2020-07-07 01:11:25,597-DIMENSION : Payment_Details created!
+2020-07-07 01:11:27,152-DIMENSION : Details created!
+2020-07-07 01:11:27,165-payment_details
+2020-07-07 01:11:27,166-payment_details
+2020-07-07 01:11:27,167-payment_details
+2020-07-07 01:11:27,168-payment_details
+2020-07-07 01:11:27,169-payment_details
+2020-07-07 01:11:27,206-degree
+2020-07-07 01:11:27,210-degree
+2020-07-07 01:11:27,212-degree
+2020-07-07 01:11:27,214-Exam_details
+2020-07-07 01:11:27,216-Exam_details
+2020-07-07 01:11:27,217-Exam_details
+2020-07-07 01:11:27,218-Exam_details
+2020-07-07 01:11:27,219-Exam_details
+2020-07-07 01:11:27,220-Grade_details
+2020-07-07 01:11:27,221-Grade_details
+2020-07-07 01:11:27,222-Grade_details
+2020-07-07 01:11:27,223-Grade_details
+2020-07-07 01:11:27,224-Grade_details
+2020-07-07 01:11:27,225-Grade_details
+2020-07-07 01:11:27,226-Grade_details
+2020-07-07 01:11:27,227-course_details
+2020-07-07 01:11:27,229-course_details
+2020-07-07 01:11:27,230-course_details
+2020-07-07 01:11:27,231-course_details
+2020-07-07 01:11:27,232-course_details
+2020-07-07 01:11:27,233-course_details
+2020-07-07 01:11:27,233-course_details
+2020-07-07 01:11:27,234-course_details
+2020-07-07 01:11:27,235-course_details
+2020-07-07 01:11:27,236-course_details
+2020-07-07 01:11:27,237-course_details
+2020-07-07 01:11:27,238-course_details
+2020-07-07 01:11:27,240-department_details
+2020-07-07 01:11:27,241-department_details
+2020-07-07 01:11:27,242-department_details
+2020-07-07 01:11:27,317-staff_details
+2020-07-07 01:12:29,732-DIMENSION : Payment_Details created!
+2020-07-07 01:12:30,894-DIMENSION : Details created!
+2020-07-07 01:12:30,956-payment_details
+2020-07-07 01:12:30,960-payment_details
+2020-07-07 01:12:30,961-payment_details
+2020-07-07 01:12:30,962-payment_details
+2020-07-07 01:12:30,963-payment_details
+2020-07-07 01:12:30,990-degree
+2020-07-07 01:12:30,997-degree
+2020-07-07 01:12:30,998-degree
+2020-07-07 01:12:31,001-Exam_details
+2020-07-07 01:12:31,002-Exam_details
+2020-07-07 01:12:31,003-Exam_details
+2020-07-07 01:12:31,004-Exam_details
+2020-07-07 01:12:31,006-Exam_details
+2020-07-07 01:12:31,006-Grade_details
+2020-07-07 01:12:31,010-Grade_details
+2020-07-07 01:12:31,011-Grade_details
+2020-07-07 01:12:31,012-Grade_details
+2020-07-07 01:12:31,014-Grade_details
+2020-07-07 01:12:31,015-Grade_details
+2020-07-07 01:12:31,016-Grade_details
+2020-07-07 01:12:31,019-course_details
+2020-07-07 01:12:31,020-course_details
+2020-07-07 01:12:31,021-course_details
+2020-07-07 01:12:31,022-course_details
+2020-07-07 01:12:31,023-course_details
+2020-07-07 01:12:31,024-course_details
+2020-07-07 01:12:31,025-course_details
+2020-07-07 01:12:31,026-course_details
+2020-07-07 01:12:31,028-course_details
+2020-07-07 01:12:31,029-course_details
+2020-07-07 01:12:31,030-course_details
+2020-07-07 01:12:31,031-course_details
+2020-07-07 01:12:31,033-department_details
+2020-07-07 01:12:31,034-department_details
+2020-07-07 01:12:31,035-department_details
+2020-07-07 01:12:31,066-staff_details
+2020-07-07 01:12:31,070-staff_details
+2020-07-07 01:12:31,072-staff_details
+2020-07-07 01:12:31,073-staff_details
+2020-07-07 01:12:31,074-staff_details
+2020-07-07 01:12:31,075-staff_details
+2020-07-07 01:12:31,077-staff_details
+2020-07-07 01:12:31,077-staff_details
+2020-07-07 01:12:31,078-staff_details
+2020-07-07 01:12:31,080-staff_details
+2020-07-07 01:12:31,081-staff_details
+2020-07-07 01:12:31,242-placement_details
+2020-07-07 01:13:29,143-DIMENSION : Payment_Details created!
+2020-07-07 01:13:30,091-DIMENSION : Details created!
+2020-07-07 01:13:30,131-payment_details
+2020-07-07 01:13:30,132-payment_details
+2020-07-07 01:13:30,133-payment_details
+2020-07-07 01:13:30,134-payment_details
+2020-07-07 01:13:30,135-payment_details
+2020-07-07 01:13:30,138-degree
+2020-07-07 01:13:30,139-degree
+2020-07-07 01:13:30,140-degree
+2020-07-07 01:13:30,231-Exam_details
+2020-07-07 01:13:30,233-Exam_details
+2020-07-07 01:13:30,234-Exam_details
+2020-07-07 01:13:30,235-Exam_details
+2020-07-07 01:13:30,236-Exam_details
+2020-07-07 01:13:30,238-Grade_details
+2020-07-07 01:13:30,239-Grade_details
+2020-07-07 01:13:30,240-Grade_details
+2020-07-07 01:13:30,241-Grade_details
+2020-07-07 01:13:30,242-Grade_details
+2020-07-07 01:13:30,243-Grade_details
+2020-07-07 01:13:30,244-Grade_details
+2020-07-07 01:13:30,246-course_details
+2020-07-07 01:13:30,247-course_details
+2020-07-07 01:13:30,248-course_details
+2020-07-07 01:13:30,249-course_details
+2020-07-07 01:13:30,250-course_details
+2020-07-07 01:13:30,250-course_details
+2020-07-07 01:13:30,251-course_details
+2020-07-07 01:13:30,253-course_details
+2020-07-07 01:13:30,254-course_details
+2020-07-07 01:13:30,254-course_details
+2020-07-07 01:13:30,255-course_details
+2020-07-07 01:13:30,256-course_details
+2020-07-07 01:13:30,259-department_details
+2020-07-07 01:13:30,259-department_details
+2020-07-07 01:13:30,261-department_details
+2020-07-07 01:13:30,291-staff_details
+2020-07-07 01:13:30,291-staff_details
+2020-07-07 01:13:30,296-staff_details
+2020-07-07 01:13:30,297-staff_details
+2020-07-07 01:13:30,297-staff_details
+2020-07-07 01:13:30,298-staff_details
+2020-07-07 01:13:30,299-staff_details
+2020-07-07 01:13:30,300-staff_details
+2020-07-07 01:13:30,301-staff_details
+2020-07-07 01:13:30,302-staff_details
+2020-07-07 01:13:30,303-staff_details
+2020-07-07 01:13:30,305-placement_details
+2020-07-07 01:13:48,194-DIMENSION : Payment_Details created!
+2020-07-07 01:13:49,210-DIMENSION : Details created!
+2020-07-07 01:13:49,235-payment_details
+2020-07-07 01:13:49,236-payment_details
+2020-07-07 01:13:49,237-payment_details
+2020-07-07 01:13:49,238-payment_details
+2020-07-07 01:13:49,239-payment_details
+2020-07-07 01:13:49,244-degree
+2020-07-07 01:13:49,245-degree
+2020-07-07 01:13:49,246-degree
+2020-07-07 01:13:49,248-Exam_details
+2020-07-07 01:13:49,249-Exam_details
+2020-07-07 01:13:49,250-Exam_details
+2020-07-07 01:13:49,251-Exam_details
+2020-07-07 01:13:49,252-Exam_details
+2020-07-07 01:13:49,254-Grade_details
+2020-07-07 01:13:49,255-Grade_details
+2020-07-07 01:13:49,256-Grade_details
+2020-07-07 01:13:49,257-Grade_details
+2020-07-07 01:13:49,257-Grade_details
+2020-07-07 01:13:49,258-Grade_details
+2020-07-07 01:13:49,260-Grade_details
+2020-07-07 01:13:49,261-course_details
+2020-07-07 01:13:49,263-course_details
+2020-07-07 01:13:49,264-course_details
+2020-07-07 01:13:49,265-course_details
+2020-07-07 01:13:49,266-course_details
+2020-07-07 01:13:49,267-course_details
+2020-07-07 01:13:49,268-course_details
+2020-07-07 01:13:49,268-course_details
+2020-07-07 01:13:49,269-course_details
+2020-07-07 01:13:49,270-course_details
+2020-07-07 01:13:49,271-course_details
+2020-07-07 01:13:49,272-course_details
+2020-07-07 01:13:49,273-department_details
+2020-07-07 01:13:49,274-department_details
+2020-07-07 01:13:49,275-department_details
+2020-07-07 01:13:49,277-staff_details
+2020-07-07 01:13:49,278-staff_details
+2020-07-07 01:13:49,279-staff_details
+2020-07-07 01:13:49,280-staff_details
+2020-07-07 01:13:49,281-staff_details
+2020-07-07 01:13:49,281-staff_details
+2020-07-07 01:13:49,282-staff_details
+2020-07-07 01:13:49,283-staff_details
+2020-07-07 01:13:49,284-staff_details
+2020-07-07 01:13:49,285-staff_details
+2020-07-07 01:13:49,286-staff_details
+2020-07-07 01:13:49,370-placement_details
+2020-07-07 01:13:49,372-placement_details
+2020-07-07 01:13:49,373-calendar_details
+2020-07-07 01:14:13,762-DIMENSION : Payment_Details created!
+2020-07-07 01:14:14,836-DIMENSION : Details created!
+2020-07-07 01:14:14,860-payment_details
+2020-07-07 01:14:14,861-payment_details
+2020-07-07 01:14:14,863-payment_details
+2020-07-07 01:14:14,864-payment_details
+2020-07-07 01:14:14,866-payment_details
+2020-07-07 01:14:14,867-degree
+2020-07-07 01:14:14,871-degree
+2020-07-07 01:14:14,872-degree
+2020-07-07 01:14:14,997-Exam_details
+2020-07-07 01:14:15,001-Exam_details
+2020-07-07 01:14:15,002-Exam_details
+2020-07-07 01:14:15,004-Exam_details
+2020-07-07 01:14:15,005-Exam_details
+2020-07-07 01:14:15,044-Grade_details
+2020-07-07 01:14:15,045-Grade_details
+2020-07-07 01:14:15,047-Grade_details
+2020-07-07 01:14:15,049-Grade_details
+2020-07-07 01:14:15,051-Grade_details
+2020-07-07 01:14:15,053-Grade_details
+2020-07-07 01:14:15,054-Grade_details
+2020-07-07 01:14:15,054-course_details
+2020-07-07 01:14:15,058-course_details
+2020-07-07 01:14:15,060-course_details
+2020-07-07 01:14:15,062-course_details
+2020-07-07 01:14:15,063-course_details
+2020-07-07 01:14:15,064-course_details
+2020-07-07 01:14:15,066-course_details
+2020-07-07 01:14:15,067-course_details
+2020-07-07 01:14:15,070-course_details
+2020-07-07 01:14:15,071-course_details
+2020-07-07 01:14:15,073-course_details
+2020-07-07 01:14:15,074-course_details
+2020-07-07 01:14:15,074-department_details
+2020-07-07 01:14:15,078-department_details
+2020-07-07 01:14:15,080-department_details
+2020-07-07 01:14:15,151-staff_details
+2020-07-07 01:14:15,151-staff_details
+2020-07-07 01:14:15,153-staff_details
+2020-07-07 01:14:15,155-staff_details
+2020-07-07 01:14:15,156-staff_details
+2020-07-07 01:14:15,157-staff_details
+2020-07-07 01:14:15,159-staff_details
+2020-07-07 01:14:15,160-staff_details
+2020-07-07 01:14:15,161-staff_details
+2020-07-07 01:14:15,163-staff_details
+2020-07-07 01:14:15,164-staff_details
+2020-07-07 01:14:15,268-placement_details
+2020-07-07 01:14:15,272-placement_details
+2020-07-07 01:14:15,275-calendar_details
+2020-07-07 01:15:39,082-DIMENSION : Payment_Details created!
+2020-07-07 01:15:42,272-DIMENSION : Details created!
+2020-07-07 01:15:42,816-payment_details
+2020-07-07 01:15:42,818-payment_details
+2020-07-07 01:15:42,879-payment_details
+2020-07-07 01:15:42,879-payment_details
+2020-07-07 01:15:42,884-payment_details
+2020-07-07 01:15:42,949-degree
+2020-07-07 01:15:42,951-degree
+2020-07-07 01:15:42,952-degree
+2020-07-07 01:15:43,067-Exam_details
+2020-07-07 01:15:43,069-Exam_details
+2020-07-07 01:15:43,070-Exam_details
+2020-07-07 01:15:43,072-Exam_details
+2020-07-07 01:15:43,074-Exam_details
+2020-07-07 01:15:43,247-Grade_details
+2020-07-07 01:15:43,247-Grade_details
+2020-07-07 01:15:43,251-Grade_details
+2020-07-07 01:15:43,254-Grade_details
+2020-07-07 01:15:43,255-Grade_details
+2020-07-07 01:15:43,257-Grade_details
+2020-07-07 01:15:43,258-Grade_details
+2020-07-07 01:15:43,339-course_details
+2020-07-07 01:15:43,367-course_details
+2020-07-07 01:15:43,369-course_details
+2020-07-07 01:15:43,369-course_details
+2020-07-07 01:15:43,373-course_details
+2020-07-07 01:15:43,374-course_details
+2020-07-07 01:15:43,376-course_details
+2020-07-07 01:15:43,377-course_details
+2020-07-07 01:15:43,380-course_details
+2020-07-07 01:15:43,381-course_details
+2020-07-07 01:15:43,383-course_details
+2020-07-07 01:15:43,384-course_details
+2020-07-07 01:15:43,453-department_details
+2020-07-07 01:15:43,453-department_details
+2020-07-07 01:15:43,456-department_details
+2020-07-07 01:15:43,540-staff_details
+2020-07-07 01:15:43,542-staff_details
+2020-07-07 01:15:43,544-staff_details
+2020-07-07 01:15:43,545-staff_details
+2020-07-07 01:15:43,547-staff_details
+2020-07-07 01:15:43,548-staff_details
+2020-07-07 01:15:43,550-staff_details
+2020-07-07 01:15:43,552-staff_details
+2020-07-07 01:15:43,553-staff_details
+2020-07-07 01:15:43,554-staff_details
+2020-07-07 01:15:43,556-staff_details
+2020-07-07 01:15:43,622-placement_details
+2020-07-07 01:15:43,624-placement_details
+2020-07-07 01:15:43,624-calendar_details
+2020-07-07 01:16:37,457-DIMENSION : Payment_Details created!
+2020-07-07 01:16:38,556-DIMENSION : Details created!
+2020-07-07 01:16:38,585-payment_details
+2020-07-07 01:16:38,586-payment_details
+2020-07-07 01:16:38,593-payment_details
+2020-07-07 01:16:38,597-payment_details
+2020-07-07 01:16:38,601-payment_details
+2020-07-07 01:16:38,611-degree
+2020-07-07 01:16:38,617-degree
+2020-07-07 01:16:38,618-degree
+2020-07-07 01:16:38,625-Exam_details
+2020-07-07 01:16:38,630-Exam_details
+2020-07-07 01:16:38,633-Exam_details
+2020-07-07 01:16:38,637-Exam_details
+2020-07-07 01:16:38,638-Exam_details
+2020-07-07 01:16:38,646-Grade_details
+2020-07-07 01:16:38,646-Grade_details
+2020-07-07 01:16:38,650-Grade_details
+2020-07-07 01:16:38,656-Grade_details
+2020-07-07 01:16:38,661-Grade_details
+2020-07-07 01:16:38,666-Grade_details
+2020-07-07 01:16:38,670-Grade_details
+2020-07-07 01:16:38,676-course_details
+2020-07-07 01:16:38,682-course_details
+2020-07-07 01:16:38,687-course_details
+2020-07-07 01:16:38,687-course_details
+2020-07-07 01:16:38,693-course_details
+2020-07-07 01:16:38,694-course_details
+2020-07-07 01:16:38,698-course_details
+2020-07-07 01:16:38,703-course_details
+2020-07-07 01:16:38,706-course_details
+2020-07-07 01:16:38,706-course_details
+2020-07-07 01:16:38,713-course_details
+2020-07-07 01:16:38,716-course_details
+2020-07-07 01:16:38,719-department_details
+2020-07-07 01:16:38,725-department_details
+2020-07-07 01:16:38,725-department_details
+2020-07-07 01:16:38,731-staff_details
+2020-07-07 01:16:38,737-staff_details
+2020-07-07 01:16:38,737-staff_details
+2020-07-07 01:16:38,743-staff_details
+2020-07-07 01:16:38,746-staff_details
+2020-07-07 01:16:38,751-staff_details
+2020-07-07 01:16:38,755-staff_details
+2020-07-07 01:16:38,757-staff_details
+2020-07-07 01:16:38,762-staff_details
+2020-07-07 01:16:38,762-staff_details
+2020-07-07 01:16:38,767-staff_details
+2020-07-07 01:16:38,771-placement_details
+2020-07-07 01:16:38,778-placement_details
+2020-07-07 01:16:38,786-calendar_details
+2020-07-07 01:16:55,365-DIMENSION : Payment_Details created!
+2020-07-07 01:16:58,191-DIMENSION : Details created!
+2020-07-07 01:16:58,425-payment_details
+2020-07-07 01:16:58,425-payment_details
+2020-07-07 01:16:58,425-payment_details
+2020-07-07 01:16:58,425-payment_details
+2020-07-07 01:16:58,442-payment_details
+2020-07-07 01:16:58,471-degree
+2020-07-07 01:16:58,475-degree
+2020-07-07 01:16:58,479-degree
+2020-07-07 01:16:58,485-Exam_details
+2020-07-07 01:16:58,490-Exam_details
+2020-07-07 01:16:58,493-Exam_details
+2020-07-07 01:16:58,498-Exam_details
+2020-07-07 01:16:58,498-Exam_details
+2020-07-07 01:16:58,583-Grade_details
+2020-07-07 01:16:58,586-Grade_details
+2020-07-07 01:16:58,591-Grade_details
+2020-07-07 01:16:58,591-Grade_details
+2020-07-07 01:16:58,597-Grade_details
+2020-07-07 01:16:58,601-Grade_details
+2020-07-07 01:16:58,604-Grade_details
+2020-07-07 01:16:58,622-course_details
+2020-07-07 01:16:58,626-course_details
+2020-07-07 01:16:58,629-course_details
+2020-07-07 01:16:58,633-course_details
+2020-07-07 01:16:58,636-course_details
+2020-07-07 01:16:58,637-course_details
+2020-07-07 01:16:58,642-course_details
+2020-07-07 01:16:58,643-course_details
+2020-07-07 01:16:58,648-course_details
+2020-07-07 01:16:58,650-course_details
+2020-07-07 01:16:58,655-course_details
+2020-07-07 01:16:58,659-course_details
+2020-07-07 01:16:58,677-department_details
+2020-07-07 01:16:58,688-department_details
+2020-07-07 01:16:58,692-department_details
+2020-07-07 01:16:58,755-staff_details
+2020-07-07 01:16:58,758-staff_details
+2020-07-07 01:16:58,761-staff_details
+2020-07-07 01:16:58,766-staff_details
+2020-07-07 01:16:58,769-staff_details
+2020-07-07 01:16:58,773-staff_details
+2020-07-07 01:16:58,775-staff_details
+2020-07-07 01:16:58,779-staff_details
+2020-07-07 01:16:58,783-staff_details
+2020-07-07 01:16:58,785-staff_details
+2020-07-07 01:16:58,791-staff_details
+2020-07-07 01:16:58,862-placement_details
+2020-07-07 01:16:58,866-placement_details
+2020-07-07 01:16:58,873-calendar_details
+2020-07-07 01:17:42,557-DIMENSION : Payment_Details created!
+2020-07-07 01:17:43,847-DIMENSION : Details created!
+2020-07-07 01:17:43,954-payment_details
+2020-07-07 01:17:44,058-payment_details
+2020-07-07 01:17:44,179-payment_details
+2020-07-07 01:17:44,263-payment_details
+2020-07-07 01:17:44,353-payment_details
+2020-07-07 01:17:44,515-degree
+2020-07-07 01:17:44,682-degree
+2020-07-07 01:17:44,825-degree
+2020-07-07 01:17:44,947-Exam_details
+2020-07-07 01:17:45,048-Exam_details
+2020-07-07 01:17:45,229-Exam_details
+2020-07-07 01:17:45,381-Exam_details
+2020-07-07 01:17:45,546-Exam_details
+2020-07-07 01:17:45,788-Grade_details
+2020-07-07 01:17:46,011-Grade_details
+2020-07-07 01:17:46,097-Grade_details
+2020-07-07 01:17:46,272-Grade_details
+2020-07-07 01:17:46,424-Grade_details
+2020-07-07 01:17:46,590-Grade_details
+2020-07-07 01:17:46,698-Grade_details
+2020-07-07 01:17:46,965-course_details
+2020-07-07 01:17:47,231-course_details
+2020-07-07 01:17:47,413-course_details
+2020-07-07 01:17:47,635-course_details
+2020-07-07 01:17:47,897-course_details
+2020-07-07 01:17:48,045-course_details
+2020-07-07 01:17:48,143-course_details
+2020-07-07 01:17:48,263-course_details
+2020-07-07 01:17:48,489-course_details
+2020-07-07 01:17:48,610-course_details
+2020-07-07 01:17:48,767-course_details
+2020-07-07 01:17:48,865-course_details
+2020-07-07 01:17:49,027-department_details
+2020-07-07 01:17:49,234-department_details
+2020-07-07 01:17:49,365-department_details
+2020-07-07 01:17:49,594-staff_details
+2020-07-07 01:17:49,748-staff_details
+2020-07-07 01:17:49,895-staff_details
+2020-07-07 01:17:50,017-staff_details
+2020-07-07 01:17:50,116-staff_details
+2020-07-07 01:17:50,214-staff_details
+2020-07-07 01:17:50,299-staff_details
+2020-07-07 01:17:50,398-staff_details
+2020-07-07 01:17:50,508-staff_details
+2020-07-07 01:17:50,601-staff_details
+2020-07-07 01:17:50,697-staff_details
+2020-07-07 01:17:50,884-placement_details
+2020-07-07 01:17:50,944-placement_details
+2020-07-07 01:17:51,011-calendar_details
+2020-07-07 01:21:41,952-'dbconne' object has no attribute 'PaymentDetails'
+2020-07-07 01:22:10,636-'dbconne' object has no attribute 'PaymentDetails'
+2020-07-07 01:23:14,334-'dbconne' object has no attribute 'PaymentDetails'
+2020-07-07 01:23:54,769-'dbconne' object has no attribute 'PaymentDetails'
+2020-07-07 07:42:58,614-'dbconne' object has no attribute 'PaymentDetails'
+2020-07-07 07:44:20,600-'dbconne' object has no attribute 'PaymentDetails'
+2020-07-07 07:44:32,582-'dbconne' object has no attribute 'PaymentDetails'
+2020-07-07 07:45:56,353-'NoneType' object is not iterable
+2020-07-07 07:46:14,431-'NoneType' object is not iterable
+2020-07-07 07:46:29,959-name 'x' is not defined
+2020-07-07 07:47:40,755-name 'x' is not defined
+2020-07-07 07:48:00,021-name 'x' is not defined
+2020-07-07 07:48:08,713-'NoneType' object is not iterable

@@ -1,6 +1,6 @@
 import pytest
 import sys
-sys.path.append('C:\\Users\\DELL\\PycharmProject\\test_datamodel\\connection')
+sys.path.append(r'C:\Users\mohan\Desktop\DataModel-Recent\connection')
 import connection
 
 class Testinsertion():
@@ -49,6 +49,7 @@ class Testinsertion():
     def test_dim_course(self):
         mydb = connection.con()
         mycursor = mydb.cursor()
+        
         sql = '''select * from course_details where not exists(select * from test_course_details)'''
         res = mycursor.execute(sql)
         assert res == None
@@ -110,5 +111,5 @@ class Testinsertion():
         assert res == None
 
 
-#obj=test_insertion()
-#obj.test_fact_academics()
+obj=Testinsertion()
+obj.test_fact_academics()

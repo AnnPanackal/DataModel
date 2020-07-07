@@ -2,7 +2,7 @@ import configparser
 
 def conpar():
     config = configparser.ConfigParser()
-    config.read(r"C:\Users\k.a.ramasubramanian\Desktop\Training\git\DataModel\connection\config.properties")
+    config.read(r"C:\Users\mohan\Desktop\DataModel-Recent\connection\config.properties")
     host = config.get("dev","host")
     user = config.get("dev", "user")
     password = config.get("dev", "password")
